@@ -15,7 +15,7 @@ Avoid using preparation data in screen actions; most of the time it's better jus
 
 ### Solution
 
-Avoid using data created in the screen preparation in the screen actions. For instance, instead of using the tablerecord record data, use only the ID of the row and fetch the data from the database again is needed.
+Avoid using data created in the screen preparation in the screen actions. For instance, instead of using the tablerecord record data, use only the ID of the row and fetch the data from the database again if needed.
 
 ### Importance
 
